@@ -3,7 +3,7 @@ import "./App.css";
 import Form from "./components/Form";
 import context from "./context/context";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Table from "./components/CreateTable";
+import Table from "./components/UsersTable";
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter className="">
         <Routes>
           <Route path="/" element={<Form />}></Route>
-          <Route path="/createtable" element={<Table />}></Route>
+          <Route path="/userstable" element={<Table />}></Route>
         </Routes>
       </BrowserRouter>
     </context.Provider>

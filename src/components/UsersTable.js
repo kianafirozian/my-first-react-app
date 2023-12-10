@@ -21,9 +21,9 @@ export default function Table() {
           </tr>
         </thead>
         <tbody>
-          {users.map((user) => (
+          {users.map((user, index) => (
             <tr
-              key={user.name}
+              key={`${user.name}-${index}`}
               className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
             >
               <td className="px-6 py-4">{user.name}</td>

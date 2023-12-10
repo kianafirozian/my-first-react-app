@@ -58,7 +58,7 @@ export default function Form() {
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-3"
         />
         <Link
-          to="/createtable"
+          to="/userstable"
           className="bg-blue-500 font-bold hover:bg-blue-700 px-4 py-2 m-3 rounded text-white "
         >
           Results
